@@ -1088,5 +1088,13 @@ footer img
     display: flex;
 }
 
+    .carousel
+    {
+        margin-top: 3vh;
+        width:100%; 
+        overflow:hidden; 
+        height: 60vh;
+    }
+
     
 }
