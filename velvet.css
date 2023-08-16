@@ -1073,7 +1073,7 @@ footer img
     .icone
     {
         display: flex;
-        margin-left: 30vw;
+        margin-left: 27vw;
         font-size: xx-large;
         margin-top: 3.5vh;
     }
@@ -1093,8 +1093,8 @@ footer img
         margin-top: 3vh;
         width:100%; 
         overflow:hidden; 
-        height: 50vh;
-        padding-right: -4vw;
+        height: 60vh;
+        padding-right: -vw;
     }
 
     
