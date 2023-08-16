@@ -1081,10 +1081,11 @@ footer img
     .jacquin
 {
     margin-top: -12vh;
-    margin-left: 5vw;
+    margin-left: -5vw;
     font-size: 300%;
     color:#4F3739;
     font-weight: 600;
+    display: flex;
 }
 
     
