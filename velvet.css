@@ -289,6 +289,7 @@ input[type=checkbox]:checked ~ .paineis{animation-play-state:paused; animation: 
 {
     display: flex;
     margin-top: 13vh;
+    transition: opacity 0.5s ease;
 }
 
 .imagem_pq_frança img
@@ -332,6 +333,7 @@ input[type=checkbox]:checked ~ .paineis{animation-play-state:paused; animation: 
 {
     display: flex;
     margin-top: -5vh;
+    transition: opacity 0.5s ease;
 }
 
 .imagem_pq_vinho
