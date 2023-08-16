@@ -45,3 +45,33 @@ window.addEventListener('scroll', () =>
         }
     }
 );
+const pqfranca = document.querySelector('.pq_frança');
+
+window.addEventListener('scroll', () => 
+    {
+        const windowHeight = window.innerHeight;
+        const pqfrancaTop = pqfranca.getBoundingClientRect().top;
+
+        if (pqfrancaTop < windowHeight * 0.8)
+        {
+            pqfranca.style.opacity = 1;
+        } else {
+            pqfranca.style.opacity = 0;
+        }
+    }
+);
+const pqvinho = document.querySelector('.pq_vinho');
+
+window.addEventListener('scroll', () => 
+    {
+        const windowHeight = window.innerHeight;
+        const pqvinhoTop = pqvinho.getBoundingClientRect().top;
+
+        if (pqvinhoTop < windowHeight * 0.8)
+        {
+            pqvinho.style.opacity = 1;
+        } else {
+            pqvinho.style.opacity = 0;
+        }
+    }
+);
