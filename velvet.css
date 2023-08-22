@@ -45,9 +45,8 @@ body
 
 header 
 {
-    position: static;
+    position: relative;
     margin-top: 6vh;
-    padding-bottom: 2vh;
 }
 
 header nav
@@ -82,13 +81,42 @@ header nav ul li
 }
 
 
-.icone
+.header_mobile
 {
-    display: flex;
-    margin-left: 53vw;
-    font-size: xx-large;
-    margin-top: 5vh;
+    position: absolute;
+    top: 3.5vh;
+    left: 90%;
+    display: none;
 }
+.header_mobile li i
+{
+    font-size: 3vh;
+}
+
+.header_pc 
+{
+    padding-left: 32vw;
+}
+
+.header_pc li 
+{
+    position: relative; 
+    display: inline-block; 
+    padding-left: 1vw;
+    vertical-align: middle; 
+    padding-top: 6.5vh;
+}
+
+.header_pc li a 
+{
+    font-size: 2.2vh;
+}
+
+.header_pc li a:hover
+{
+    border-bottom: 0.4vh solid #E3C47A;
+}
+
 
 .menu li a 
 {
@@ -220,7 +248,7 @@ input[type=checkbox]:checked ~ .paineis{animation-play-state:paused; animation: 
 .imagem_pq_velvet img:hover
 {
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(1.02);
 }
 
 .texto_pq_velvet p
@@ -262,7 +290,7 @@ input[type=checkbox]:checked ~ .paineis{animation-play-state:paused; animation: 
 .imagem_pq_cafe img:hover
 {
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(1.02);
 }
 
 .texto_pq2 p
@@ -306,7 +334,7 @@ input[type=checkbox]:checked ~ .paineis{animation-play-state:paused; animation: 
 .imagem_pq_frança img:hover
 {
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(1.02);
 }
 
 .texto_pq_frança p
@@ -356,7 +384,7 @@ input[type=checkbox]:checked ~ .paineis{animation-play-state:paused; animation: 
 .imagem_pq_vinho:hover img
 {
     cursor: pointer;
-    transform: scale(0.9);
+    transform: scale(1.02);
 }
 
 .texto_pqVinho p
@@ -1065,6 +1093,7 @@ footer img
   width: 100%;
   height: 550px;
   overflow: hidden;
+  padding-top: 2.6vh;
 }
 
 .slides
@@ -1183,9 +1212,10 @@ transition: 1s;
 {
     header nav ul li a img 
     {
-        height: 12vh;
-        width: 24vw;
+        height: 10vh;
+        width: 22vw;
         display: flex;
+        margin-left: -3.7vw;
     }
 
     .experiencia
@@ -1202,22 +1232,62 @@ transition: 1s;
     }
 
     .jacquin
-{
-    margin-top: -12vh;
-    margin-left: -5vw;
-    font-size: 300%;
-    color:#4F3739;
-    font-weight: 600;
-    display: flex;
-}
-
-    .carousel
     {
-        margin-top: 3vh;
-        width:100%; 
-        overflow:hidden; 
-        height: 60vh;
-        padding-right: -vw;
+        margin-top: 10vh;
+        font-size: 200%;
+        color:#4F3739;
+        font-weight: 600;
+        display: inline;
+    }
+
+    .jacquin p
+    {
+        margin-left: 15vw;
+    }
+
+    .linha3 
+    {
+        margin-top: 2vh;
+    }
+
+    .slider
+    {
+        display: none;
+    }
+
+    .header_pc
+    {
+        display: none;
+    }
+    
+    .header_mobile
+    {
+        display: flex;
+        margin-left: -1vw;
+    }
+
+    .imagem_pq_cafe, .imagem_pq_frança, .imagem_pq_velvet, .imagem_pq_vinho
+    {
+        display: none;
+    }
+
+    .titulo_pq_velvet p, .titulo_pq_cafe p, .titulo_pq_frança p, .titulo_pq_vinho p
+    {
+        font-size: 190%;
+    }
+
+    .texto_pq2
+    {
+        margin-right: -48vw;
+        text-align: justify;
+        margin-left: 1vw;
+    }
+
+    .texto_pqVinho
+    {
+        margin-right: -48vw;
+        text-align: justify;
+        margin-left: 1vw;
     }
 
 }    
