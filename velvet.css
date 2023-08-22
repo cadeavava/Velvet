@@ -1337,6 +1337,11 @@ transition: 1s;
     .titulo_texto_cat p
     {
         margin-top: -10vh;
+        font-family: 'Cinzel';
+        font-weight: 600;
+        text-align: center;
+    }
+}
 
     
 }    
