@@ -1331,7 +1331,12 @@ transition: 1s;
 
     .cat img
     {
-        margin-left: 3vw;
+        margin-left: 9vw;
+        margin-top: -4vh;
+    }
+    .titulo_texto_cat p
+    {
+        margin-top: 2vh;
 
     
 }    
