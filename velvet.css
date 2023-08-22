@@ -1295,4 +1295,17 @@ transition: 1s;
         display: none;
     }
 
+     footer ul li a img
+    {
+        height: 10vh;
+        width: 22vw;
+        display: flex;
+        margin-left: -3.7vw;
+    }
+
+    .footer_centro
+    {
+        font-size: 100%;
+    }
+
 }    
