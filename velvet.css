@@ -1295,7 +1295,7 @@ transition: 1s;
         display: none;
     }
 
-     footer ul li a img
+     .esquerda img
     {
         height: 10vh;
         width: 22vw;
@@ -1303,7 +1303,7 @@ transition: 1s;
         margin-left: -3.7vw;
     }
 
-    .footer_centro
+    .footer_centro li a
     {
         font-size: 100%;
     }
