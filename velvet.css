@@ -1081,7 +1081,7 @@ footer img
 .slide
 {
   width: 100%;
-  opacity: 0; /* Começa escondendo as imagens */
+  opacity: 1; 
   transform: translateX(-100%); /* Desloca as imagens para a esquerda */
   transition: opacity 1s, transform 1s; /* Define a transição suave */
 }
