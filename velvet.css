@@ -47,6 +47,7 @@ header
 {
     position: static;
     margin-top: 6vh;
+    padding-bottom: 2vh;
 }
 
 header nav
