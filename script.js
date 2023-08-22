@@ -75,3 +75,81 @@ window.addEventListener('scroll', () =>
         }
     }
 );
+//scroll da pag de cafe
+const fraseAutor = document.querySelector('.frase_autor');
+
+window.addEventListener('scroll', () => 
+    {
+        const windowHeight = window.innerHeight;
+        const fraseAutorTop = fraseAutor.getBoundingClientRect().top;
+
+        if (fraseAutorTop < windowHeight * 0.1)
+        {
+            fraseAutor.style.opacity = 0;
+        } else {
+            fraseAutor.style.opacity = 1;
+        }
+    }
+);
+const descricao_cat = document.querySelector('.descricao_cat');
+
+window.addEventListener('scroll', () => 
+    {
+        const windowHeight = window.innerHeight;
+        const descricao_cat_top = descricao_cat.getBoundingClientRect().top;
+
+        if (descricao_cat_top < windowHeight * 0.8)
+        {
+            descricao_cat.style.opacity = 1;
+        } else {
+            descricao_cat.style.opacity = 0;
+        }
+    }
+);
+const categoria_do_velvet = document.querySelector('.categoria_do_velvet');
+
+window.addEventListener('scroll', () => 
+    {
+        const windowHeight = window.innerHeight;
+        const categoria_do_velvet_top = categoria_do_velvet.getBoundingClientRect().top;
+
+        if (categoria_do_velvet_top < windowHeight * 0.8)
+        {
+            categoria_do_velvet.style.opacity = 1;
+        } else {
+            categoria_do_velvet.style.opacity = 0;
+        }
+    }
+);
+const linha1catalogo = document.querySelector('.linha1catalogo');
+
+window.addEventListener('scroll', () => 
+    {
+        const windowHeight = window.innerHeight;
+        const linha1catalogoTop = linha1catalogo.getBoundingClientRect().top;
+
+        if (linha1catalogoTop < windowHeight * 0.8)
+        {
+            linha1catalogo.style.opacity = 1;
+        } else {
+            linha1catalogo.style.opacity = 0;
+        }
+    }
+);
+const linha2catalogo = document.querySelector('.linha2catalogo');
+
+window.addEventListener('scroll', () => 
+    {
+        const windowHeight = window.innerHeight;
+        const linha2catalogotop = linha2catalogo.getBoundingClientRect().top;
+
+        if (linha2catalogotop < windowHeight * 0.8)
+        {
+            linha2catalogo.style.opacity = 1;
+        } else {
+            linha2catalogo.style.opacity = 0;
+        }
+    }
+);
+
+
