@@ -1307,6 +1307,7 @@ transition: 1s;
     {
         margin-top: -10vh;
     }
+    
 
     /*CAFÉ*/
     .frase_autor
@@ -1407,7 +1408,7 @@ transition: 1s;
         height: 20vh;
     }
 
-    *BEBIDAS*/
+/*BEBIDAS*/
 
     .cat_textoVinho, .cat_texto_salg
     {
@@ -1439,4 +1440,66 @@ transition: 1s;
         height: 25vh;
         width: 40vw;
     }
-}    
+
+    /*SALGADOS*/
+    .ajuste_paoqueijo img 
+    {
+        width: 30vw;
+        height: 30vh;
+    }
+
+    .ajuste_bolinho img 
+    {
+        width: 36vw;
+        height: 20vh;
+        margin-top: 2vh;
+    }
+
+    .ajuste_croassaint img 
+    {
+        height: 25vw;
+        width: 22vh;
+    }
+
+    .ajuste_croque img 
+    {
+        height: 30vh;
+        width: 35vw;
+    }
+
+    .ajuste_rata img 
+    {
+        width: 42vw;
+        height: 27vh;
+    }
+
+    /*DOCES*/
+    .ajuste_cinnamon img 
+    {
+        height: 20vh;
+        width: 30vw;
+    }
+
+    .ajuste_macaroon
+    {
+        padding-left: 0;
+    }
+
+    .ajuste_macaroon img 
+    {
+        height: 20vh;
+        width: 17vw;
+    }
+
+    .ajuste_velvet img, .ajuste_opera img, .ajuste_morango img
+    {
+        height: 30vh;
+        width: 40vw;
+    }
+
+    .ajuste_choco img
+    {
+        height: 25vh;
+        width: 60vw;
+    }
+}
