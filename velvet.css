@@ -1321,7 +1321,7 @@ transition: 1s;
 
     .frase_autor p
     {
-        margin-left: 10vw;
+        margin-left: 5vw;
     }
 
     .autor
@@ -1332,11 +1332,11 @@ transition: 1s;
     .cat img
     {
         margin-left: 9vw;
-        margin-top: -4vh;
+        margin-top: 10vh;
     }
     .titulo_texto_cat p
     {
-        margin-top: 2vh;
+        margin-top: -10vh;
 
     
 }    
