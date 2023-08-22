@@ -1308,8 +1308,7 @@ transition: 1s;
         margin-top: -10vh;
     }
 
-    /*elo doce*/
-
+    /*CAFÉ*/
     .frase_autor
     {
         margin-top: 10vh;
@@ -1321,7 +1320,7 @@ transition: 1s;
 
     .frase_autor p
     {
-        margin-left: 5vw;
+        margin-left: 12vw;
     }
 
     .autor
@@ -1331,26 +1330,82 @@ transition: 1s;
 
     .cat img
     {
-        margin-left: 9vw;
-        margin-top: 10vh;
+        margin-left: -8vw;
+        height: 30vh;
+        width: 100vw;
     }
+
+    .cat_texto p 
+    {
+        margin-left: 5vw;
+    }
+
     .titulo_texto_cat p
     {
-        margin-top: -10vh;
-        font-family: 'Cinzel';
-        font-weight: 600;
-        text-align: center;
+        margin-top: 2vh;
     }
-    .cat_texto
+
+    .titulo_texto_cat
     {
         text-align: justify;
-        font-size: larger;
-        font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-        font-weight: 80%;
-        padding-right: none;
-        margin-top: -12vh;
+        margin-top: -20vh;
+        margin-left: 5vw;
     }
-}
+    
+    .descricao_cat
+    {
+        display: block;
+    }
+
+    .cat img 
+    {
+        margin-top: 6vh;
+    }
+
+    .categoria_do_velvet
+    {
+        margin-top: 5vh;
+    }
+
+    .linha1catalogo
+    {
+        display: block;
+        text-align: center;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 1.5vh;
+    }
+
+    .linha1catalogo p 
+    {
+        word-wrap: break-word;
+    }
+
+    .produto_linha1 img
+    {
+        width: 40vw;
+        height: 20vh;
+    }
+
+    .linha2catalogo
+    {
+        display: block;
+        text-align: center;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 1.5vh;
+    }
+
+    .linha2catalogo p 
+    {
+        word-wrap: break-word;
+    }
+
+    .produto_linha2 img
+    {
+        width: 40vw;
+        height: 20vh;
+    }
 
     
 }    
