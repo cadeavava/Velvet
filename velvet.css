@@ -1407,5 +1407,36 @@ transition: 1s;
         height: 20vh;
     }
 
-    
+    *BEBIDAS*/
+
+    .cat_textoVinho, .cat_texto_salg
+    {
+        text-align: justify;
+        margin-top: -20vh;
+        margin-left: 5vw;
+    }
+
+    .ajuste_suco img 
+    {
+        height: 18vh;
+        width: 25vw;
+    }
+
+    .produto_bebida1 img 
+    {
+        height: 25vh;
+        width: 40vw;
+    }
+
+    .ajuste img 
+    {
+        height: 25vh;
+        width: 40vw;
+    }
+
+    .produto_bebida img 
+    {
+        height: 25vh;
+        width: 40vw;
+    }
 }    
