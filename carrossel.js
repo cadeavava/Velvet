@@ -14,14 +14,5 @@ function nextImage() {
     count = 1;
   }
 
-  // Remova a classe 'active' de todas as imagens
-  document.querySelectorAll('.slide').forEach(slide => {
-    slide.classList.remove('active');
-  });
-
-  // Adicione a classe 'active' à imagem atual
-  document.querySelector(".slide:nth-child(" + count + ")").classList.add("active");
-
-  // Atualize o botão de navegação (se necessário)
-  document.getElementById("radio" + count).checked = true;
+document.getElementById("radio"+count).checked = true;
 }
