@@ -1276,26 +1276,21 @@ transition: 1s;
         font-size: 190%;
     }
 
-    .texto_pq2
+    .texto_pq2 p
     {
-        margin-right: -48vw;
+        margin-right: 8vw;
         text-align: justify;
-        margin-left: 1vw;
+        margin-left: 8vw;
     }
 
-    .texto_pqVinho
+    .texto_pqVinho p
     {
-        margin-right: -48vw;
+        margin-right: 8vw;
         text-align: justify;
-        margin-left: 1vw;
+        margin-left: 8vw;
     }
 
-    footer
-    {
-        display: none;
-    }
-
-     .esquerda img
+    .esquerda img
     {
         display: none;
     }
@@ -1305,7 +1300,7 @@ transition: 1s;
         display: none;
     }
 
-    footer
+    footer 
     {
         display: none;
     }
