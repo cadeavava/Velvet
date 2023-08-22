@@ -1,18 +1,15 @@
 let count = 1;
 document.getElementById("radio1").checked = true;
 
-// Adicione a classe 'active' à primeira imagem
-document.querySelector(".slide:nth-child(1)").classList.add("active");
+setInterval( function(){
+nextImage();
+}, 5000)
 
-setInterval(function () {
-  nextImage();
-}, 5000);
-
-function nextImage() {
+function nextImage(){
   count++;
-  if (count > 4) {
+  if(count>4){
     count = 1;
   }
 
-document.getElementById("radio"+count).checked = true;
+  document.getElementById("radio"+count).checked = true;
 }

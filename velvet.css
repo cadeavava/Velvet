@@ -1062,7 +1062,7 @@ footer img
 {
   margin: 0 auto;
   width: 100%;
-  height: 500px;
+  height: 550px;
   overflow: hidden;
 }
 
@@ -1080,29 +1080,24 @@ footer img
 }
 .slide
 {
-  width: 100%;
-  opacity: 1; 
-  transform: translateX(-100%); /* Desloca as imagens para a esquerda */
-  transition: opacity 1s, transform 1s; /* Define a transição suave */
+  width: 25%;
+  position: relative;
+  transition: 2s;
+
 }
 
-.slide.active {
-  opacity: 1;
-  transform: translateX(0);
-}    
-    
 .slide img{
   width: 100%;
 }
 
 .manual-navigation
 {
-    position: absolute;
-    width: 800px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    margin-left: 20vw;
+position: absolute;
+width: 800px;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+margin-left: 20vw;
 }
 
 .manual-btn
@@ -1143,11 +1138,11 @@ footer img
 
 .bolinhas div
 {
-    border: 2px solid #E3C47A;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
+border: 2px solid #E3C47A;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+transition: 1s;
 }
 
 .bolinhas{
