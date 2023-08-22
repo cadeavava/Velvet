@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html> <!--página catálogo dos cafés, porém esse começo até a header igual pra todos-->
     <head>
-        <title>Velvet Espresso</title>
+       <title>Velvet Espresso</title>
         <link rel="icon" type="image/jpeg" href="imagens/Velvet_Logo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
+        <meta name="keywords" content="Velvet, Espresso, França, Cafeteria">
         <link rel="stylesheet" type="text/css" href="velvet.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <!--adicionar meta responsivo-->
+        <script src="sanduba.js" defer></script>
+
         <style>
             span 
             {
@@ -14,14 +17,32 @@
             }
         </style>
     </head>
-
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><a href="index.html"><img src="imagens/velvet_logo.png"></a></li>
+                    <li><a href=""><img src="imagens/velvet_logo.png"></a></li>
                     <div class="experiencia"><li><a href="index.html">EXPERIÊNCIA REFINADA NO AROMA E SABOR</a></li></div> 
-                    <div class="icone"><li><a href="menu.html"><i class="fa-solid fa-bars" title="Menu" style="color: #8c0d18;"></i></a></li></div> 
+                    <div class="header_mobile" id="mobile-menu">
+                        <li><i class="fa-solid fa-bars" title="Menu" style="color: #8c0d18;"></i></li>
+                        <ul class="menu" id="menu">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="cafe.html">CAFÉS</a></li>
+                            <li><a href="bebidas.html">BEBIDAS</a></li>
+                            <li><a href="salgados.html">SALGADOS</a></li>
+                            <li><a href="doce.html">DOCES</a></li>
+                        </ul>
+                    </div>
+                
+            
+                    <div class="header_pc">
+                        <ul>
+                            <li><a href="cafe.html">CAFÉS</a></li>
+                            <li><a href="bebidas.html">BEBIDAS</a></li>
+                            <li><a href="salgados.html">SALGADOS</a></li>
+                            <li><a href="doce.html">DOCES</a></li>
+                        </ul>
+                    </div>
                 </ul>
             </nav>
         </header>
