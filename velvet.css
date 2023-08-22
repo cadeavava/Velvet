@@ -1057,49 +1057,7 @@ footer img
     }
   }
 
-/*<<<<<Responsivo>>>>>>*/
-@media only screen and (max-width: 768px)
-{
-    header nav ul li a img 
-    {
-        height: 12vh;
-        width: 24vw;
-        display: flex;
-    }
-
-    .experiencia
-    {
-        display: none;
-    }
-
-    .icone
-    {
-        display: flex;
-        margin-left: 27vw;
-        font-size: xx-large;
-        margin-top: 3.5vh;
-    }
-
-    .jacquin
-{
-    margin-top: -12vh;
-    margin-left: -5vw;
-    font-size: 300%;
-    color:#4F3739;
-    font-weight: 600;
-    display: flex;
-}
-
-    .carousel
-    {
-        margin-top: 3vh;
-        width:100%; 
-        overflow:hidden; 
-        height: 60vh;
-        padding-right: -vw;
-    }
-
-    
+/*CARROSSEL*/
 .slider
 {
   margin: 0 auto;
@@ -1222,3 +1180,48 @@ footer img
 {
   background-color: #ffffff;
 }
+
+
+/*<<<<<Responsivo>>>>>>*/
+@media only screen and (max-width: 768px)
+{
+    header nav ul li a img 
+    {
+        height: 12vh;
+        width: 24vw;
+        display: flex;
+    }
+
+    .experiencia
+    {
+        display: none;
+    }
+
+    .icone
+    {
+        display: flex;
+        margin-left: 27vw;
+        font-size: xx-large;
+        margin-top: 3.5vh;
+    }
+
+    .jacquin
+{
+    margin-top: -12vh;
+    margin-left: -5vw;
+    font-size: 300%;
+    color:#4F3739;
+    font-weight: 600;
+    display: flex;
+}
+
+    .carousel
+    {
+        margin-top: 3vh;
+        width:100%; 
+        overflow:hidden; 
+        height: 60vh;
+        padding-right: -vw;
+    }
+
+}    
