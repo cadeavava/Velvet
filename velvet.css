@@ -1307,4 +1307,20 @@ transition: 1s;
     {
         margin-top: -10vh;
     }
+
+    /*elo doce*/
+
+    .frase_autor
+    {
+        margin-top: 10vh;
+        font-size: 200%;
+        color:#4F3739;
+        font-weight: 600;
+        display: inline;
+    }
+
+    .frase_autor p
+    {
+        margin-left: 15vw;
+    }
 }    
