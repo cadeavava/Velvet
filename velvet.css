@@ -1122,12 +1122,17 @@ footer img
 }
 .slide
 {
-  width: 25%;
-  position: relative;
-  transition: 2s;
-
+  width: 100%;
+  opacity: 0; /* Começa escondendo as imagens */
+  transform: translateX(-100%); /* Desloca as imagens para a esquerda */
+  transition: opacity 1s, transform 1s; /* Define a transição suave */
 }
 
+.slide.active {
+  opacity: 1;
+  transform: translateX(0);
+}    
+    
 .slide img{
   width: 100%;
 }
