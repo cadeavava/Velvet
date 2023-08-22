@@ -174,59 +174,6 @@ header nav ul li a img
     margin-left: 50vw;
 }
 
-/*carrosel*/
-@keyframes carousel{
-    0%    { left:0; }
-    11%   { left:0; }
-    12.5% { left:-100%; }
-    23.5% { left:-100%; }
-    25%   { left:-200%; }
-    36%   { left:-200%; }
-    37.5% { left:-300%; }
-    48.5% { left:-300%; }
-    50%   { left:-400%; }
-    61%   { left:-400%; }
-    62.5% { left:-300%; }
-    73.5% { left:-300%; }
-    75%   { left:-200%; }
-    86%   { left:-200%; }
-    87.5% { left:-100%; }
-    98.5% { left:-100%; }
-    100%  { left:0; }
-    /* daqui: http://csswizardry.com/2011/10/fully-fluid-responsive-css-carousel/ */
-}
-@keyframes go{
-    0%    {  }
-    100%    { left:-300%; }
-}
-@keyframes back{
-    0%    { left:0; }
-    100%  { left:100%; }
-}
-.carousel{
-    margin-top: 3vh;
-    width:100%; 
-    overflow:hidden; 
-    height: 120vh;
-}
-.paineis{
-    width:500% /* article w * 5 */; 
-    overflow:hidden;  
-    height:100vh; 
-    animation:carousel 30s infinite; position:relative;}
-article{
-    float:left; 
-    width:20%;} 
-img{
-    margin: 0%;
-    height:100vh; 
-    width:100vw;
-
-}
-input[type=checkbox]:checked ~ .paineis{animation-play-state:paused; animation: go 10s}
-
-/*carrosel acaba aqui*/
-
 
 /*4 seções*/
 .pq_velvet
@@ -379,6 +326,11 @@ input[type=checkbox]:checked ~ .paineis{animation-play-state:paused; animation: 
     margin-top: -115vh;
     transition: transform 0.3s ease;
     border-radius: 3%;
+}
+
+.imagem__vinho img, .imagem__cafe img, .imagem__frança img, .imagem__velvet img
+{
+    display: none;
 }
 
 .imagem_pq_vinho:hover img
@@ -1264,7 +1216,33 @@ transition: 1s;
     {
         display: flex;
         margin-left: -1vw;
+        cursor: pointer;
     }
+
+    .menu {
+        list-style: none;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: -30vw;
+        background-color: #4F3739;
+        padding: 10px;
+        border-radius: 5%;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #F2EBDC;
+    }
+    
+    .header_mobile:hover .menu {
+        display: block;
+    }
+    
+    .menu li {
+        margin: 10px 0;
+    }
+    
 
     .imagem_pq_cafe, .imagem_pq_frança, .imagem_pq_velvet, .imagem_pq_vinho
     {
@@ -1310,4 +1288,23 @@ transition: 1s;
         display: none;
     }
 
+    .imagem__vinho, .imagem__cafe, .imagem__frança, .imagem__velvet
+    {
+        text-align: center;
+    }
+
+    .imagem__vinho img, .imagem__cafe img, .imagem__frança img, .imagem__velvet img
+    {
+        display: inline;
+        margin-top: 5vh;
+        height: 30vh;
+        width: 80vw;
+        margin-bottom: 3vh;
+        border-radius: 2%;
+    }
+
+    .texto_pq2, .texto_pq_frança, .texto_pq_velvet, .texto_pqVinho
+    {
+        margin-top: -10vh;
+    }
 }    
