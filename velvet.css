@@ -1290,4 +1290,9 @@ transition: 1s;
         margin-left: 1vw;
     }
 
+    footer
+    {
+        display: none;
+    }
+
 }    
