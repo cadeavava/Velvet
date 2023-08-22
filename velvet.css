@@ -1297,15 +1297,22 @@ transition: 1s;
 
      .esquerda img
     {
-        height: 10vh;
-        width: 22vw;
-        display: flex;
-        margin-left: -3.7vw;
+        display: none;
     }
 
     .footer_centro li a
     {
-        font-size: 100%;
+        display: none;
+    }
+
+    footer
+    {
+        display: none;
+    }
+
+    .hr_mobile 
+    {
+        display: none;
     }
 
 }    
