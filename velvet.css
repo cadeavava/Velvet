@@ -167,8 +167,8 @@ header nav ul li a img
     margin-top: 10vh;
     font-size: 450%;
     font-weight: 500;
+    transition: opacity 1s ease-in-out;
 }
-
 .autor
 {
     margin-left: 50vw;
@@ -367,6 +367,7 @@ header nav ul li a img
     margin-top: 30vh;
     margin-left: 8vw;
     margin-right: 10vw;
+    transition: opacity 1s ease-in-out;
 }
 
 .cat_texto
@@ -400,6 +401,7 @@ header nav ul li a img
 {
     text-align: center;
     margin-top: 20vh;
+    transition: opacity 1s ease;
 }
 
 /*PRODUTOS CATÁLOGO*/
@@ -409,6 +411,7 @@ header nav ul li a img
     display: flex;
     text-align: center;
     margin-left: 7.8vw;
+    transition: opacity 1s ease;
 }
 
 .produto_linha1 img
@@ -439,6 +442,7 @@ header nav ul li a img
     display: flex;
     text-align: center;
     margin-left: 7.8vw;
+    transition: opacity 1s ease;
 }
 
 .produto_linha2 img
@@ -462,6 +466,7 @@ header nav ul li a img
 {
     margin-left: 7.8vw;
     font-size: larger;
+    transition: opacity 1s ease;
 }
 
 /*MENU RED*/
@@ -1356,6 +1361,7 @@ transition: 1s;
     .descricao_cat
     {
         display: block;
+        transition: opacity 1s ease;
     }
 
     .cat img 
