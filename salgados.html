@@ -75,12 +75,20 @@
         <br>
         <br>
         <p class="nome_linha1">Salgados da Casa</p>
-        <!--CATALOGO-->
+        <!--CATALOGO--> 
+        
+        <button id="showCatalogText">Mostrar Detalhes dos Produtos</button>
         <section class="linha1catalogo">
             <section class="ajuste_paoqueijo">
-                <img src="imagens/pao_queijo.png">
+               
+                
+                <img id="image" src="imagens/pao_queijo.png">
+                
                 <p>PORÇÃO PÃO DE QUEIJO</p>
                 <p>R$22,00</p>
+                <div class="linha1catalogo">
+                <p class="catalogText" style="display: none;">O pão de queijo da Velvet Cafe é uma verdadeira iguaria. Feito com ingredientes de alta qualidade, como queijo fresco e polvilho, cada mordida é uma explosão de sabor. A crosta crocante e o interior tornam este salgado macio e irresistível. Perfeito para acompanhar um cafezinho ou curtir como lanche a qualquer momento.</p>
+                </div>
             </section>
             <section class="produto_linha1">
                 <div class="ajuste">
@@ -88,42 +96,52 @@
                 </div>
                 <p>PASTEL</p>
                 <p>R$6,00</p>
+                <p class="catalogText" style="display: none;">Os pasteis da Velvet Cafe são simplesmente divinos. Recheados com uma variedade de ingredientes deliciosos, desde carne suculenta queijo até derretido, eles são fritos até a perfeição. A massa fina e crocante é o complemento perfeito para o recheio, criando uma combinação de sabores que vai deixar o seu paladar encantado.</p>
             </section>
             <section class="produto_linha1">
                 <img src="imagens/fritas.png">
                 <p>PORÇÃO DE FRITAS</p>
                 <p>R$19,00</p>
+                <p class="catalogText" style="display: none;">As batatas fritas da Velvet Cafe são um verdadeiro deleite. Cortadas em palitos finos e crocantes, elas são salgadas na medida certa e perfeitamente douradas. Um acompanhamento clássico para qualquer refeição ou um ótimo petisco para compartilhar com os amigos.
+                </p>
             </section>
             <section class="ajuste_bolinho">
                 <img src="imagens/bacalhau.png">
                 <p>PORÇÃO BOLINHO DE BACALHAU</p>
                 <p>R$35,00</p>
+                <p class="catalogText" style="display: none;">Os bolinhos de bacalhau da Velvet Cafe são uma homenagem à tradição portuguesa. Feitos com bacalhau fresco e temperos especiais, esses bolinhos são fritos até ficarem dourados e crocantes por fora, enquanto o interior é macio e cheio de sabor. Uma verdadeira explosão de sabores marinhos em cada mordida.</p>
             </section>
         </section>
 
         <br><br><br>
         <p class="nome_linha1">Especiais</p>
-
+        
         <section class="linha2catalogo">
             <section class="ajuste_croassaint">
                 <img src="imagens/salgados_cat.png">
                 <p>CROASSAINT SALGADO</p>
                 <p>R$7,00</p>
+                <p class="catalogText" style="display: none;">O croissant salgado da Velvet Cafe é uma combinação perfeita de crocância e sabor. A massa folhada é delicadamente amanteigada e recheada com ingredientes saborosos, como presunto e queijo. Uma opção elegante para um café da manhã ou um lanche sofisticado.</p>
             </section>
             <section class="ajuste_croque">
                 <img src="imagens/Croque_Monsieur.png">
                 <p>CROQUE MONSIEUR</p>
                 <p>R$15,00</p>
+                <p class="catalogText" style="display: none;">O Croque Monsieur da Velvet Cafe é uma obra-prima da culinária francesa. Este sanduíche quente é recheado com presunto e queijo derretido, e depois gratinado até ficar dourado e borbulhante. Cada mordida é uma explosão de sabores ricos e reconfortantes.</p>
             </section>
             <section class="ajuste_rata">
                 <img src="imagens/Ratatouille.png">
                 <p>RATATOUILLE</p>
                 <p>R$19,00</p>
+                <p class="catalogText" style="display: none;">O Ratatouille da Velvet Cafe é uma opção saudável e deliciosa. Feito com uma variedade de legumes frescos, como berinjela, abobrinha e tomate, ele é cozido lentamente em temperos aromáticos. O resultado é um prato reconfortante que combina perfeitamente sabores mediterrâneos.
+                </p>
             </section>
             <section class="produto_linha2">
                 <img src="imagens/pizza.png">
                 <p>PIZZA</p>
                 <p>R$30,00</p>
+                <p class="catalogText" style="display: none">A pizza da Velvet Cafe é uma verdadeira obra-prima da culinária italiana. A massa é fina e crocante, cobertura com molho de tomate caseiro e uma generosa porção de queijo derretido. Você pode escolher entre uma variedade de coberturas, desde as clássicas até as mais criativas, para criar a pizza dos seus sonhos. Cada pedaço é uma explosão de sabores que vai deixar você desejando por mais.
+                </p>
             </section>
         </section>
 
@@ -156,7 +174,8 @@
                     </div> 
                 </ul>
             </nav>
-        </footer>
+        </footer>   
     </body>
     <script src="script.js"></script>
+    <script src="ingredientes.js"></script>
 </html>
