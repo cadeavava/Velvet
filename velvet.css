@@ -1508,4 +1508,32 @@ transition: 1s;
         height: 25vh;
         width: 60vw;
     }
+    #showCatalogText
+    {
+        height: 19vh;
+        width: 35vw;
+    
+    }
 }
+/*INGREDIENTES JAVASCRIPT*/
+.catalogText
+{
+   
+    text-align: left;
+    margin-right: 2vw ;
+}
+#showCatalogText {
+    display:grid;
+    margin-left: 35vw;
+    padding: 20px 30px;
+    background-color: #4f3739; /* Cor de fundo do botão */
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #showCatalogText:hover {
+    background-color: #39292b; /* Cor de fundo quando hover */
+  }
